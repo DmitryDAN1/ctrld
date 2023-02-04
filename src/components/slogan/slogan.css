@@ -1,0 +1,23 @@
+:root {
+    --header-height: 0px;
+}
+
+.slogan-container {
+    height: calc(100vh - var(--header-height));
+    background-color: red;
+    align-items: center;
+    margin-bottom: 400px;
+}
+
+.slogan-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: rgb(74, 210, 160);
+}
+
+.slogan-default {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 600;
+}
